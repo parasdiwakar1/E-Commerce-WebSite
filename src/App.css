@@ -1,0 +1,207 @@
+.box {
+    height: 550px;
+    width: 290px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.box:hover {
+    background-color: rgb(74, 68, 68);
+    color: white;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    z-index: 2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+img:hover {
+    z-index: 1;
+
+}
+
+.main {
+    position: relative;
+    top: 20px;
+    gap: 30px;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    margin-bottom: 100vh;
+}
+.app-main{
+    /* overflow: hidden; */
+    width: 98vw;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image:url(https://st.depositphotos.com/1785433/4399/i/380/depositphotos_43990899-stock-photo-blue-abstract-background.jpg);
+    padding-bottom: 98vh;
+}
+
+h1 {
+    color: #202c2d;
+    background: #FFFFFF;
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+
+}
+
+.btn:hover {
+    background-color: blueviolet;
+
+    width: 110px;
+}
+
+.h-nav {
+    color: blue;
+    background-color: black;
+    text-shadow: none;
+    position: relative;
+    left: 20px;
+}
+
+.nevbox {
+    border-bottom: 2px solid white;
+    height: 50px;
+    width: 98vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.add_btn {
+    position: relative;
+    right: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: wheat;
+    font-size: 15px;
+}
+
+
+
+.login {
+    height: 20vh;
+    width: 20vw;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+button {
+    width: 18vw;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 100%;
+    border: solid 2px #121111;
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+    position: relative;
+    bottom: 10px;
+
+}
+
+
+#form-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      background-image:url(https://wallpapercave.com/wp/wp3498363.jpg);
+  
+}
+
+.submit_s,
+.submit {
+    margin-top: 30px;
+    height: 40px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    background-color: blue;
+    box-sizing: border-box;
+    
+}
+.submit_s:hover{
+    background-color: rgb(74, 9, 112);
+}
+
+.msg {
+    margin: 10px;
+    text-align: center;
+}
+
+.label {
+    margin-top: 10px;
+    font-weight: 600;
+    position: relative;
+    bottom: 5px;
+}
+
+
+.title{
+    text-align: center;
+    color:blue;
+}
